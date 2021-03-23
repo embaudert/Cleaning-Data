@@ -1,9 +1,10 @@
 activity_name <- function(act) {
+  lables <- read.csv("UCI HAR Dataset/activity_labels.txt", sep = " ", header = FALSE)[,2]
   switch(act,
-         "Activity 1",
-         "Activity 2",
-         "Activity 3",
-         "Activity 4",
-         "Activity 5",
-         "Activity 6")
+         lables[1],
+         lables[2],
+         lables[3],
+         lables[4],
+         lables[5],
+         lables[6])
 }

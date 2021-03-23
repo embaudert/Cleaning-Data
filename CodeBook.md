@@ -12,12 +12,13 @@ For this project I used the provided data about gyroscope data in mobile devices
 ## transformation steps
 
 * ```The first 12 lines``` of code read the test and train datasets. For each dataset the measurements (X), the activities (Y) and the test subjects (subject) are read from the files and afterwards concatenated to one single dataset containing the test subject, the activity and the measurements.
-* ```Line 14``` merges the train and test datasets to one big dataset as **required in task 1**.
-* ```Lines 16 and 17``` read the headers of the data and assign it to the data names as **required in task 4**.
-* ```Line 19``` changes the entry for activity name to a more descriptive name as **required in task 3**. Unfortunately I couldn't find out which activity number belongs to which activity of WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING and LAYING. These names could be easily exchanged in ```activity_names.R```.
-* ```Line 21``` extracts only the mean and standard deviation for each measurement from the original data as **required in task 2**.
-* ```Line 23``` groups the data by test subject and activity, calculates the mean for every group and stores this in a new data object as **required in task 5**.
-* ```Line 25``` stores the tidy data using the ```write.table``` command as **required by the exercise**.
+* ```Line 15``` merges the train and test datasets to one big dataset as **required in task 1**.
+* ```Lines 17 and 18``` read the headers of the data and assign it to the data names as **required in task 4**.
+* ```Line 20``` changes the entry for activity name to a more descriptive name as **required in task 3**.
+* ```Line 22``` extracts only the mean and standard deviation for each measurement from the original data as **required in task 2**.
+* ```Line 24``` groups the data by test subject and activity, calculates the mean for every group and stores this in a new data object as **required in task 5**.
+* ```Lines 26 to 32``` change the names of the features and make them more readable as **required in task 4**.
+* ```Line 34``` stores the tidy data using the ```write.table``` command as **required by the exercise**.
 
 ## stored variables
 
