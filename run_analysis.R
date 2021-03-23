@@ -15,6 +15,7 @@ data <- rbind(train_data, test_data)
 
 data_lables <- read.csv("UCI HAR Dataset/features.txt", sep = " ", header = FALSE)[,2]
 names(data) <- c("test_subject", "movement_activity", data_lables)
+
 data[,2] <- sapply(data[,2], activity_name)
 
 data_mean_sdt <- cbind(data[,1:2], data[,str_detect(names(data), "mean()|std()")])
