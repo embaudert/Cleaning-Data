@@ -1,6 +1,6 @@
 # Cleaning of gyroscope data
 
-Disclaimer: I am not even sure whether I got the exercise correct or what was the expected outcome. I did it as good as I could, when it is wrong, pleas inform me what the instructors actually wanted. Thank you!
+Disclaimer: I am not even sure whether I got the exercise correct or what was the expected outcome is. I did it as good as I could, when it is wrong, please inform me what the instructors actually wanted. Thank you!
 
 ## Files
 
